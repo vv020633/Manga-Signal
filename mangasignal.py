@@ -91,7 +91,6 @@ def getLatestSpyXFamily(reddit):
     
 
 
-
 def main():
     global lights
 
