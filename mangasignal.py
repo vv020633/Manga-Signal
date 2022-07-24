@@ -32,7 +32,7 @@ def redditConnect():
     connection = praw.Reddit(
         client_id = os.environ.get('REDDIT_CLIENT_ID'),
         client_secret = os.environ.get('REDDIT_CLIENT_SECRET'),
-        user_agent = 'ChapterChecker by u/bowlama')
+        user_agent = os.environ.get('REDDIT_USER_AGENT') )
 
     return connection
 
